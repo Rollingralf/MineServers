@@ -1,0 +1,19 @@
+name: mineservers
+description: Cross-platform Flutter app to create and manage local Minecraft servers.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
